@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
+    <title>Edit Contact</title>
 
     <!-- CSS Section -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -14,13 +14,10 @@
     <header></header>
 
     <main class="container">
-        <h1 class="mb-5">Contact Us</h1>
-
+        <h1 class="mb-5">Edit Contact</h1>
         <div id="messageArea"></div>
-
         <div class="row justify-content-lg-center g-3">
 
-            <div class="row justify-content-lg-center">
             <form class="col-lg-6 col-md-10 col-sm-10">
 
                 <div class="input-group mb-2">
@@ -41,25 +38,9 @@
                            aria-describedby="Email Address" aria-label="Email Address Input" required>
                 </div>
 
-                <div class="input-group mb-2">
-                    <span class="input-group-text">Your Message</span>
-                    <input id="message" name="message" class="form-control"
-                           aria-describedby="Message Area" aria-label="Message Area Input" required>
-                </div>
-
-                <div class="mb-2">
-                    <input type="checkbox" class="form-check-input" id="subscribeCheckbox" name="subscribeCheckbox">
-                    <label class="form-check-label ms-1" for="subscribeCheckbox">Subscribe to our contact list!</label>
-                </div>
-
-                <button id="sendButton" type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Submit</button>
+                <button id="editButton" type="submit" class="btn btn-primary"><i class="fas fa-edit fa-lg"></i> Confirm Changes</button>
                 <button id="cancelButton" type="reset" class="btn btn-warning"><i class="fa-solid fa-rotate-left"></i> Cancel</button>
-                <div>
-                    <a href="contact-list.html" class="btn btn-primary mt-2"><i class="fa-solid fa-address-book"></i> Show Contact List</a>
-
-                </div>
             </form>
-            </div>
 
         </div>
     </main>
